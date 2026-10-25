@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#650d20">
+  <meta name="description" content="كتالوج إخوان بصل للأقمشة والمفروشات. استعرض موديلات فروع وهامر وبابلز مشبح وفلوريا وألوانها وصورها.">
+  <title>إخوان بصل | كتالوج الأقمشة والمفروشات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="إخوان بصل - الرئيسية">
+      <img src="images/logo.png" alt="شعار إخوان بصل" onerror="this.hidden=true">
+      <span><strong>إخوان بصل</strong><small>كتالوج الأقمشة والمفروشات</small></span>
+    </a>
+    <nav aria-label="التنقل الرئيسي"><a href="#home">الرئيسية</a><a href="#branches">المجموعات</a><a href="#catalog">الموديلات</a></nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <p class="eyebrow">إخوان بصل • كتالوج الأقمشة</p>
+      <h1>فخامة التفاصيل تبدأ <span>من الخامة</span></h1>
+      <p>اكتشف موديلات فروع وهامر وبابلز مشبح وفلوريا، واستعرض الألوان والصور والتفاصيل الفنية لكل خامة.</p>
+      <a class="primary-button" href="#catalog">استعرض الموديلات ←</a>
+    </div>
+  </section>
+  <section class="container catalog-section" id="branches">
+    <div class="section-heading"><div><p class="eyebrow">المجموعات</p><h2>الأقمشة</h2><p class="section-subtitle">اختر المجموعة لعرض موديلاتها.</p></div></div>
+    <div id="branch-list" class="filter-row"></div>
+  </section>
+  <section class="container catalog-section catalog-tight" id="catalog">
+    <div class="section-heading">
+      <div><h2 id="catalog-title">الموديلات المتاحة</h2><p class="section-subtitle">اضغط على صورة اللون أو اسم اللون لفتح صفحة تفاصيل مستقلة، أو افتح معرض الصور.</p></div>
+      <label class="search-wrap"><span class="sr-only">بحث</span><input id="search-input" type="search" placeholder="ابحث عن موديل أو لون..." autocomplete="off"></label>
+    </div>
+    <div id="catalog-status" class="status-message" role="status" aria-live="polite">جارٍ تحميل بيانات المنتجات...</div>
+    <div id="product-grid" class="product-grid"></div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© <span id="current-year"></span> إخوان بصل</span><span>أقمشة فاخرة • تفاصيل تليق بمنزلك</span></div></footer>
+
+<dialog id="image-dialog" class="image-dialog" aria-label="معرض صور اللون">
+  <div class="dialog-top"><div><strong id="dialog-title">صور الموديل</strong><small id="dialog-subtitle"></small></div><button id="dialog-close" class="icon-button" type="button" aria-label="إغلاق">×</button></div>
+  <div class="dialog-main"><button id="prev-image" class="gallery-arrow" type="button" aria-label="الصورة السابقة">›</button><img id="dialog-image" src="" alt=""><button id="next-image" class="gallery-arrow" type="button" aria-label="الصورة التالية">‹</button></div>
+  <div id="dialog-dots" class="dialog-dots"></div>
+</dialog>
+
+<dialog id="manager-dialog" class="manager-dialog" aria-labelledby="manager-title">
+  <div class="dialog-top"><div><strong id="manager-title">اختر مدير المبيعات</strong><small>سيتم فتح واتساب برسالة تتضمن اسم الموديل والمقاس واللون.</small></div><button id="manager-close" class="icon-button" type="button" aria-label="إغلاق">×</button></div>
+  <div class="manager-options"><button type="button" class="manager-option" data-manager="ahmed">د أحمد بصل</button><button type="button" class="manager-option" data-manager="hossam">د حسام بصل</button></div>
+</dialog>
+</body>
+</html>
