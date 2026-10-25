@@ -1,0 +1,26 @@
+/* تنسيقات صفحة تفاصيل المنتج */
+.detail-page{padding-top:28px;padding-bottom:60px}
+.back-link{display:inline-block;color:#650d20;font-weight:800;margin:0 0 22px}
+.detail-head{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.detail-head h1{font-size:clamp(1.8rem,5vw,3rem);margin:4px 0}
+.detail-model,.detail-hint{color:#756b69}
+.detail-model{font-size:1.18rem;font-weight:900;line-height:1.6}
+.detail-description{padding-inline:0;margin-top:16px}
+.detail-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:24px;margin-top:24px}
+.detail-gallery,.detail-info{background:#fff;border:1px solid #e8dfda;border-radius:22px;padding:18px;min-width:0}
+.detail-main-image{display:block;width:100%;max-height:65vh;object-fit:contain;border-radius:16px;background:#f8f1eb;cursor:zoom-in}
+.detail-main-image:focus-visible{outline:3px solid #c99b4d;outline-offset:3px}
+.detail-thumbnails{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+.detail-thumbnail{border:2px solid #e7ded8;border-radius:12px;padding:4px;background:#fff;cursor:pointer}
+.detail-thumbnail.active{border-color:#d3b16a}
+.detail-thumbnail img{width:100%;height:110px;object-fit:cover;border-radius:8px;display:block}
+.detail-colors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:22px}
+.detail-color{padding:10px;border:1px solid #e5dbd5;border-radius:12px;background:#fff;font:inherit;cursor:pointer}
+.detail-color.active{border:2px solid #d3b16a;background:#fff9ec;font-weight:800}
+.detail-color:focus-visible,.detail-thumbnail:focus-visible{outline:3px solid #c99b4d;outline-offset:2px}
+.detail-info h2{font-size:1.25rem;margin:8px 0 12px}
+.detail-info .whatsapp-button{width:100%;margin-top:20px;border:0;cursor:pointer;font:inherit}
+.detail-large-image{display:block;max-width:min(90vw,1100px);max-height:75vh;object-fit:contain;margin:auto}
+.detail-image-dialog{max-width:95vw}
+.detail-info .technical-details{margin:0 0 18px}
+@media(max-width:720px){.detail-layout{grid-template-columns:1fr}.detail-page{padding-top:18px}.detail-gallery,.detail-info{padding:12px}.detail-thumbnail img{height:90px}}
