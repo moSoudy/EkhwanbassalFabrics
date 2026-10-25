@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#650d20">
+  <meta name="description" content="تفاصيل موديلات أقمشة إخوان بصل، الألوان المتاحة، صور الخامة والمقاسات.">
+  <title>تفاصيل المنتج | إخوان بصل</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="product-page.css">
+  <script src="product-page.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span><strong>إخوان بصل</strong><small>كتالوج الأقمشة والمفروشات</small></span></a>
+    <nav aria-label="التنقل الرئيسي"><a href="index.html#catalog">العودة للكتالوج</a></nav>
+  </div>
+</header>
+<main class="container detail-page">
+  <a class="back-link" href="index.html#catalog">← العودة إلى المنتجات</a>
+  <div id="detail-status" class="status-message" role="status" aria-live="polite">جارٍ تحميل تفاصيل المنتج...</div>
+  <article id="detail-product" hidden>
+    <div class="detail-head"><div><p class="eyebrow">تفاصيل المنتج واللون</p><h1 id="detail-name"></h1><p id="detail-model" class="detail-model"></p></div><span id="detail-width" class="width-badge"></span></div>
+    <p id="detail-description" class="product-description detail-description"></p>
+    <div class="detail-layout">
+      <section class="detail-gallery" aria-label="صور المنتج">
+        <img id="detail-main-image" class="detail-main-image" alt="" role="button" tabindex="0">
+        <div id="detail-thumbnails" class="detail-thumbnails"></div>
+        <p class="detail-hint">اضغط على الصورة الرئيسية لعرضها بحجم أكبر، أو اختر صورة مصغرة لتبديل العرض.</p>
+      </section>
+      <section class="detail-info">
+        <h2>اختر اللون</h2><div id="detail-colors" class="detail-colors"></div>
+        <h2>التفاصيل الفنية</h2><div id="detail-tech" class="technical-details"></div>
+        <span class="availability">متوفر ✓</span>
+        <button type="button" id="detail-whatsapp" class="whatsapp-button">💬 اسأل عن السعر على واتساب</button>
+      </section>
+    </div>
+  </article>
+</main>
+<dialog id="detail-image-dialog" class="image-dialog detail-image-dialog" aria-label="عرض الصورة بالحجم الكبير"><div class="dialog-top"><strong>عرض الصورة</strong><button id="detail-image-close" class="icon-button" type="button" aria-label="إغلاق">×</button></div><img id="detail-large-image" class="detail-large-image" alt=""></dialog>
+<dialog id="detail-manager-dialog" class="manager-dialog" aria-labelledby="detail-manager-title"><div class="dialog-top"><div><strong id="detail-manager-title">اختر مدير المبيعات</strong><small>سيتم إرسال اسم المنتج والمقاس واللون المحدد إلى واتساب.</small></div><button id="detail-manager-close" class="icon-button" type="button" aria-label="إغلاق">×</button></div><div class="manager-options"><button type="button" class="manager-option" data-manager="ahmed">د أحمد بصل</button><button type="button" class="manager-option" data-manager="hossam">د حسام بصل</button></div></dialog>
+</body>
+</html>
