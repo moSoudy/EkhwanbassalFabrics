@@ -1,1 +1,17 @@
-
+{
+  "site": "إخوان بصل",
+  "branches": [
+    {
+      "id": "fabrics",
+      "name": "أقمشة Fabrics",
+      "slug": "fabrics",
+      "description": "مجموعة أقمشة فروع وهامر وبابلز مشبح وفلوريا",
+      "products": [
+        "feroo3",
+        "hamar",
+        "bubbles",
+        "floria"
+      ]
+    }
+  ]
+}
