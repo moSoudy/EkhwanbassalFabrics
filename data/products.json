@@ -1,0 +1,320 @@
+{
+  "site": {
+    "name": "إخوان بصل"
+  },
+  "products": [
+    {
+      "id": "feroo3",
+      "model": "FEROO3",
+      "name": "خام مفرش قطيفه حفر",
+      "display_name": "خام مفرش قطيفة حفر ساده — موديل فروع FEROO3",
+      "brand": "الطباخ",
+      "branch": "fabrics",
+      "type": "مفرش",
+      "width_cm": 220,
+      "material": "قطيفه حفر ناعِم عالي الجودة",
+      "design": "حفر ليزر أنيق بأشكال أوراق فروع متكررة وبارزة ومظهر فخم",
+      "description": "مفرش قطيفة فاخر يجمع بين سحر النقوش المحفورة بالقطيفة وفخامة اللون، بملمس مخملي فائق النعومة وتصميم راقٍ يمنح سريرك إطلالة ملكية آسرة. مثالي لتزيين السرير أو الكنب، ولإضفاء لمسة من الفخامة والرقي على ديكور منزلك.",
+      "main_image": "images/0016_fabrics_feroo3_teal_220_1.jpg",
+      "availability": "متوفر",
+      "colors": [
+        {
+          "name": "جنزاري",
+          "code": "teal",
+          "images": [
+            "images/0016_fabrics_feroo3_teal_220_1.jpg",
+            "images/0017_fabrics_feroo3_teal_220_2.jpg",
+            "images/0018_fabrics_feroo3_teal_220_3.jpg"
+          ]
+        },
+        {
+          "name": "كشمير",
+          "code": "dustyrose",
+          "images": [
+            "images/0007_fabrics_feroo3_dustyrose_220_1.jpg",
+            "images/0008_fabrics_feroo3_dustyrose_220_2.jpg",
+            "images/0009_fabrics_feroo3_dustyrose_220_3.jpg"
+          ]
+        },
+        {
+          "name": "رصاصي فاتح",
+          "code": "lightgray",
+          "images": [
+            "images/0013_fabrics_feroo3_lightgray_220_1.jpg",
+            "images/0014_fabrics_feroo3_lightgray_220_2.jpg",
+            "images/0015_fabrics_feroo3_lightgray_220_3.jpg"
+          ]
+        },
+        {
+          "name": "جريج",
+          "code": "greige",
+          "images": [
+            "images/0010_fabrics_feroo3_greige_220_1.jpg",
+            "images/0011_fabrics_feroo3_greige_220_2.jpg",
+            "images/0012_fabrics_feroo3_greige_220_3.jpg"
+          ]
+        },
+        {
+          "name": "بيج",
+          "code": "beige",
+          "images": [
+            "images/0001_fabrics_feroo3_beige_220_1.jpg",
+            "images/0002_fabrics_feroo3_beige_220_2.jpg",
+            "images/0003_fabrics_feroo3_beige_220_3.jpg"
+          ]
+        },
+        {
+          "name": "نبيتي",
+          "code": "burgundy",
+          "images": [
+            "images/0004_fabrics_feroo3_burgundy_220_1.jpg",
+            "images/0005_fabrics_feroo3_burgundy_220_2.jpg",
+            "images/0006_fabrics_feroo3_burgundy_220_3.jpg"
+          ]
+        }
+      ],
+      "whatsapp_managers": [
+        {
+          "id": "ahmed",
+          "name": "د أحمد بصل",
+          "phone": "201140441480"
+        },
+        {
+          "id": "hossam",
+          "name": "د حسام بصل",
+          "phone": "201007334298"
+        }
+      ],
+      "model_label": "فروع FEROO3",
+      "whatsapp_product_name": "خام مفرش قطيفه حفر موديل/ (فروع  foroo3)    "
+    },
+    {
+      "id": "hamar",
+      "model": "HAMAR",
+      "name": "خام مفرش قطيفه حفر",
+      "display_name": "خام مفرش قطيفه ساده — موديل هامر HAMAR",
+      "brand": "الطباخ",
+      "branch": "fabrics",
+      "type": "مفرش",
+      "width_cm": 230,
+      "material": "قطيفه حفر ناعِم عالي الجودة",
+      "design": "قطيفة ناعمة بتصميم راقٍ ومظهر فخم",
+      "description": "مفرش قطيفة فاخر يجمع بين سحر النقوش المحفورة بالقطيفة وفخامة اللون، بملمس مخملي فائق النعومة وتصميم راقٍ يمنح سريرك إطلالة ملكية آسرة. مثالي لتزيين السرير أو الكنب، ولإضفاء لمسة من الفخامة والرقي على ديكور منزلك.",
+      "main_image": "images/0031_fabrics_hamar_teal_230_1.jpg",
+      "availability": "متوفر",
+      "colors": [
+        {
+          "name": "جنزاري",
+          "code": "teal",
+          "images": [
+            "images/0031_fabrics_hamar_teal_230_1.jpg",
+            "images/0032_fabrics_hamar_teal_230_2.jpg",
+            "images/0033_fabrics_hamar_teal_230_3.jpg"
+          ]
+        },
+        {
+          "name": "كشمير",
+          "code": "dustyrose",
+          "images": [
+            "images/0025_fabrics_hamar_dustyrose_230_1.jpg",
+            "images/0026_fabrics_hamar_dustyrose_230_2.jpg",
+            "images/0027_fabrics_hamar_dustyrose_230_3.jpg"
+          ]
+        },
+        {
+          "name": "أوف وايت",
+          "code": "offwhite",
+          "images": [
+            "images/0028_fabrics_hamar_offwhite_230_1.jpg",
+            "images/0029_fabrics_hamar_offwhite_230_2.jpg",
+            "images/0030_fabrics_hamar_offwhite_230_3.jpg"
+          ]
+        },
+        {
+          "name": "رصاصي غامق",
+          "code": "darkgray",
+          "images": [
+            "images/0022_fabrics_hamar_darkgray_230_1.jpg",
+            "images/0023_fabrics_hamar_darkgray_230_2.jpg",
+            "images/0024_fabrics_hamar_darkgray_230_3.jpg"
+          ]
+        },
+        {
+          "name": "بيج فاتح",
+          "code": "beige",
+          "images": [
+            "images/0019_fabrics_hamar_beige_230_1.jpg",
+            "images/0020_fabrics_hamar_beige_230_2.jpg",
+            "images/0021_fabrics_hamar_beige_230_3.jpg"
+          ]
+        }
+      ],
+      "whatsapp_managers": [
+        {
+          "id": "ahmed",
+          "name": "د أحمد بصل",
+          "phone": "201140441480"
+        },
+        {
+          "id": "hossam",
+          "name": "د حسام بصل",
+          "phone": "201007334298"
+        }
+      ],
+      "model_label": "هامر HAMAR",
+      "whatsapp_product_name": "خام مفرش قطيفه حفر موديل/ (هامر hamar)   "
+    },
+    {
+      "id": "bubbles",
+      "model": "BUBBLES",
+      "name": "خام مفرش قطيفه حفر",
+      "display_name": "خام مفرش قطيفه ساده — موديل ياسمينا بابلز مشبح Bubbles",
+      "brand": "الطباخ",
+      "branch": "fabrics",
+      "type": "مفرش",
+      "width_cm": 220,
+      "material": "قطيفه حفر ناعِم عالي الجودة",
+      "design": "قطيفة مشبحة بتصميم بابلز بارز وملمس ناعم ومظهر فخم",
+      "description": "مفرش قطيفة فاخر يجمع بين سحر النقوش المحفورة بالقطيفة وفخامة اللون، بملمس مخملي فائق النعومة وتصميم راقٍ يمنح سريرك إطلالة ملكية آسرة. مثالي لتزيين السرير أو الكنب، ولإضفاء لمسة من الفخامة والرقي على ديكور منزلك.",
+      "main_image": "images/0034_fabrics_bubbles_turquoise_220_1.jpg",
+      "availability": "متوفر",
+      "colors": [
+        {
+          "name": "تركواز",
+          "code": "turquoise",
+          "images": [
+            "images/0034_fabrics_bubbles_turquoise_220_1.jpg",
+            "images/0035_fabrics_bubbles_turquoise_220_2.jpg",
+            "images/0036_fabrics_bubbles_turquoise_220_3.jpg"
+          ]
+        },
+        {
+          "name": "كشمير",
+          "code": "dustyrose",
+          "images": [
+            "images/0037_fabrics_bubbles_dustyrose_220_1.jpg",
+            "images/0038_fabrics_bubbles_dustyrose_220_2.jpg",
+            "images/0039_fabrics_bubbles_dustyrose_220_3.jpg"
+          ]
+        },
+        {
+          "name": "رصاصي",
+          "code": "gray",
+          "images": [
+            "images/0040_fabrics_bubbles_gray_220_1.jpg",
+            "images/0041_fabrics_bubbles_gray_220_2.jpg",
+            "images/0042_fabrics_bubbles_gray_220_3.jpg"
+          ]
+        },
+        {
+          "name": "بيج كريمي",
+          "code": "beigecreamy",
+          "images": [
+            "images/0043_fabrics_bubbles_beigecreamy_220_1.jpg",
+            "images/0044_fabrics_bubbles_beigecreamy_220_2.jpg",
+            "images/0045_fabrics_bubbles_beigecreamy_220_3.jpg"
+          ]
+        },
+        {
+          "name": "كاكاو",
+          "code": "cacao",
+          "images": [
+            "images/0046_fabrics_bubbles_cacao_220_1.jpg",
+            "images/0047_fabrics_bubbles_cacao_220_2.jpg",
+            "images/0048_fabrics_bubbles_cacao_220_3.jpg"
+          ]
+        }
+      ],
+      "whatsapp_managers": [
+        {
+          "id": "ahmed",
+          "name": "د أحمد بصل",
+          "phone": "201140441480"
+        },
+        {
+          "id": "hossam",
+          "name": "د حسام بصل",
+          "phone": "201007334298"
+        }
+      ],
+      "model_label": "ياسمينا بابلز مشبح Bubbles",
+      "whatsapp_product_name": "خام مفرش قطيفه حفر موديل/ (بابلز مشبح)  "
+    },
+    {
+      "id": "floria",
+      "model": "FLORIA",
+      "name": "خام مفرش قطيفه حفر",
+      "display_name": "خام مفرش قطيفه ساده — موديل فلوريا FLORIA",
+      "brand": "الطباخ",
+      "branch": "fabrics",
+      "type": "مفرش",
+      "width_cm": 220,
+      "material": "قطيفه حفر ناعِم عالي الجودة",
+      "design": "حفر بارز بتصميم فلوري أنيق وملمس قطيفة ناعم ومظهر فخم",
+      "description": "مفرش قطيفة فاخر يجمع بين سحر النقوش المحفورة بالقطيفة وفخامة اللون، بملمس مخملي فائق النعومة وتصميم راقٍ يمنح سريرك إطلالة ملكية آسرة. مثالي لتزيين السرير أو الكنب، ولإضفاء لمسة من الفخامة والرقي على ديكور منزلك.",
+      "main_image": "images/0049_fabrics_florya_cacao_220_1.jpg",
+      "availability": "متوفر",
+      "colors": [
+        {
+          "name": "كاكاو",
+          "code": "cacao",
+          "images": [
+            "images/0049_fabrics_florya_cacao_220_1.jpg",
+            "images/0050_fabrics_florya_cacao_220_2.jpg",
+            "images/0051_fabrics_florya_cacao_220_3.jpg"
+          ]
+        },
+        {
+          "name": "كشمير",
+          "code": "dustyrose",
+          "images": [
+            "images/0052_fabrics_florya_dustyrose_220_1.jpg",
+            "images/0053_fabrics_florya_dustyrose_220_2.jpg",
+            "images/0054_fabrics_florya_dustyrose_220_3.jpg"
+          ]
+        },
+        {
+          "name": "بيج",
+          "code": "beige",
+          "images": [
+            "images/0055_fabrics_florya_beige_220_1.jpg",
+            "images/0056_fabrics_florya_beige_220_2.jpg",
+            "images/0057_fabrics_florya_beige_220_3.jpg"
+          ]
+        },
+        {
+          "name": "رصاصي",
+          "code": "gray",
+          "images": [
+            "images/0058_fabrics_florya_gray_220_1.jpg",
+            "images/0059_fabrics_florya_gray_220_2.jpg",
+            "images/0060_fabrics_florya_gray_220_3.jpg"
+          ]
+        },
+        {
+          "name": "جنزاري",
+          "code": "teal",
+          "images": [
+            "images/0061_fabrics_florya_teal_220_1.jpg",
+            "images/0062_fabrics_florya_teal_220_2.jpg",
+            "images/0063_fabrics_florya_teal_220_3.jpg"
+          ]
+        }
+      ],
+      "whatsapp_managers": [
+        {
+          "id": "ahmed",
+          "name": "د أحمد بصل",
+          "phone": "201140441480"
+        },
+        {
+          "id": "hossam",
+          "name": "د حسام بصل",
+          "phone": "201007334298"
+        }
+      ],
+      "model_label": "فلوريا FLORIA",
+      "whatsapp_product_name": "خام مفرش قطيفه حفر موديل/ (فلوريا)  "
+    }
+  ]
+}
